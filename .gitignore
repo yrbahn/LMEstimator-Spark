@@ -1,0 +1,12 @@
+target/
+data/output
+result
+copy.sh
+.idea
+.classpath
+.ensime
+.project
+.DS_Store
+.pyc
+.class
+.log

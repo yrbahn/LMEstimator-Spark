@@ -1,0 +1,19 @@
+// We're using proto3 syntax
+syntax = "proto3";
+
+package lm;
+
+// This is the service for our API
+service LanguageModel {  
+  rpc Score(SentenceRequest) returns (LMScoreResponse) {}
+}
+
+// The request message has the tweet text to be parsed
+message SentenceRequest {  
+  string sentence= 1;
+}
+
+// The request message has the tweet text to be parsed
+message LMScoreResponse {  
+  float score = 1;
+}
