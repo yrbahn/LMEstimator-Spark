@@ -1,10 +1,10 @@
-package com.kakao.sparklm
+package sparklm
 
 import java.io.File
 
 import org.apache.spark.{SparkConf, SparkContext}
 
-import com.kakao.sparklm.util._
+import sparklm.util._
 import com.typesafe.config.{Config, ConfigFactory}
 import org.apache.log4j.LogManager
 import org.clapper.argot.ArgotParser
@@ -35,7 +35,7 @@ object SparkLM{
       .set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
       .set("spark.executor.extraJavaOptions", "-XX:+UseG1GC -XX:+UseCompressedOops")
       .set("spark.kryo.registrationRequired", "true")
-      .set("spark.kryo.registrator", "com.kakao.sparklm.util.MyKryoRegistrator")
+      .set("spark.kryo.registrator", "sparklm.util.MyKryoRegistrator")
 
     implicit val sc = new SparkContext(sparkConf)
 
@@ -80,7 +80,7 @@ object SparkLM{
       preUsage = Some("%s: Version %s. Copyright (c) 2015, %s.".format(
         "SparkLM",
         "0.1",
-        "Kakao.com")
+        "")
       )
     )
 

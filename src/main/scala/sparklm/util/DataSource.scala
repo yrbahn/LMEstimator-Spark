@@ -1,6 +1,6 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
-import com.kakao.sparklm.rdd._
+import sparklm.rdd._
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 

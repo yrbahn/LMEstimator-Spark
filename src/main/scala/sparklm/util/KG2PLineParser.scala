@@ -1,4 +1,4 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
 object KG2PLineParser{
   val usefulDigit = """^[0-9]{1,}\.{0,1}[0-9]{0,5}?(\^)?$""".r

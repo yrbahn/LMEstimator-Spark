@@ -1,4 +1,4 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
 import com.esotericsoftware.kryo.Kryo
 import org.apache.spark.serializer.KryoRegistrator

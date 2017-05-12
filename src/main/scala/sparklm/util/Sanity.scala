@@ -1,4 +1,4 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
 object Sanity{
 

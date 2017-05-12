@@ -1,14 +1,14 @@
-package com.kakao.sparklm.rdd
+package sparklm.rdd
 
-import com.kakao.sparklm.SparkLM
-import com.kakao.sparklm.util.SparkLMConfig
+import sparklm.SparkLM
+import sparklm.util.SparkLMConfig
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 
 import scala.collection.mutable.ListBuffer
 import RDDElementType._
-import com.kakao.sparklm.util.NGramUtil.NGramPartitioner
-import com.kakao.sparklm.util.NGramUtil.nGramOrdering
+import sparklm.util.NGramUtil.NGramPartitioner
+import sparklm.util.NGramUtil.nGramOrdering
 
 case class NGramCountRDD(nGramRDD: RDD[NGramCountType], config: SparkLMConfig){
   def save(implicit sc: SparkContext):Either[String,Unit] = {

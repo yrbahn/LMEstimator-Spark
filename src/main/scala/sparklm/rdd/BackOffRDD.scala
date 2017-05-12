@@ -1,8 +1,8 @@
-package com.kakao.sparklm.rdd
+package sparklm.rdd
 
-import com.kakao.sparklm.SparkLM
-import com.kakao.sparklm.rdd.RDDElementType.InterpolatedNGramType
-import com.kakao.sparklm.util.SparkLMConfig
+import sparklm.SparkLM
+import sparklm.rdd.RDDElementType.InterpolatedNGramType
+import sparklm.util.SparkLMConfig
 import org.apache.hadoop.io.NullWritable
 import org.apache.hadoop.mapred.lib.MultipleTextOutputFormat
 import org.apache.spark.broadcast.Broadcast

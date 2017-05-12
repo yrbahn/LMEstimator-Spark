@@ -1,10 +1,10 @@
-package com.kakao.sparklm.rdd
+package sparklm.rdd
 
-import com.kakao.sparklm.SparkLM
-import com.kakao.sparklm.util.NGramUtil.NGramPartitionerForBackOff
-import com.kakao.sparklm.util.NGramUtil.nGramOrderingForBackOff
-import com.kakao.sparklm.util.NGramUtil.nGramOrdering
-import com.kakao.sparklm.util.{Sanity, SparkLMConfig}
+import sparklm.SparkLM
+import sparklm.util.NGramUtil.NGramPartitionerForBackOff
+import sparklm.util.NGramUtil.nGramOrderingForBackOff
+import sparklm.util.NGramUtil.nGramOrdering
+import sparklm.util.{Sanity, SparkLMConfig}
 import org.apache.hadoop.io.compress.GzipCodec
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD

@@ -1,8 +1,8 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
 import java.nio.charset.CodingErrorAction
 
-import com.kakao.sparklm.SparkLM
+import sparklm.SparkLM
 import com.twitter.penguin.korean.TwitterKoreanProcessor
 import com.twitter.penguin.korean.util.KoreanPos
 

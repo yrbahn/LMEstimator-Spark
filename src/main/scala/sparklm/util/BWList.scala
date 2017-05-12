@@ -1,4 +1,4 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
 import scala.collection.immutable.HashSet
 import scala.io.Source

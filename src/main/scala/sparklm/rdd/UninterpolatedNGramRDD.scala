@@ -1,10 +1,10 @@
-package com.kakao.sparklm.rdd
+package sparklm.rdd
 
-import com.kakao.sparklm.SparkLM
-import com.kakao.sparklm.rdd.RDDElementType.{NGramType, UniterpolatedNGramType}
-import com.kakao.sparklm.util.NGramUtil.NGramPartitioner
-import com.kakao.sparklm.util.NGramUtil.nGramOrdering
-import com.kakao.sparklm.util.SparkLMConfig
+import sparklm.SparkLM
+import sparklm.rdd.RDDElementType.{NGramType, UniterpolatedNGramType}
+import sparklm.util.NGramUtil.NGramPartitioner
+import sparklm.util.NGramUtil.nGramOrdering
+import sparklm.util.SparkLMConfig
 import org.apache.spark.SparkContext
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.rdd.RDD

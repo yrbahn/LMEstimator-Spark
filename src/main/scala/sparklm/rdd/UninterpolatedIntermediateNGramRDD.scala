@@ -1,8 +1,8 @@
-package com.kakao.sparklm.rdd
+package sparklm.rdd
 
-import com.kakao.sparklm.SparkLM
-import com.kakao.sparklm.rdd.RDDElementType.{NGramType, UniterpolatedIntermediateNGramType}
-import com.kakao.sparklm.util.{DiscountMap, Sanity, SparkLMConfig}
+import sparklm.SparkLM
+import sparklm.rdd.RDDElementType.{NGramType, UniterpolatedIntermediateNGramType}
+import sparklm.util.{DiscountMap, Sanity, SparkLMConfig}
 import org.apache.spark.SparkContext
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.rdd.RDD

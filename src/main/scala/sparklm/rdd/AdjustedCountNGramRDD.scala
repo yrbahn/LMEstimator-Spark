@@ -1,6 +1,6 @@
-package com.kakao.sparklm.rdd
+package sparklm.rdd
 
-import com.kakao.sparklm.util.SparkLMConfig
+import sparklm.util.SparkLMConfig
 import org.apache.spark.rdd.RDD
 import RDDElementType._
 

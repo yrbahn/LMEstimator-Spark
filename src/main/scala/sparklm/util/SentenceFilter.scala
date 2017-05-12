@@ -1,4 +1,4 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
 import scala.util.control.Breaks._
 

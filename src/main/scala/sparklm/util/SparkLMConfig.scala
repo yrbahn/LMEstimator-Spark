@@ -1,4 +1,4 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
 import scala.collection.JavaConversions._
 import com.typesafe.config.{ConfigException, Config}

@@ -1,4 +1,4 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
 import java.nio.charset.CodingErrorAction
 import org.apache.spark.rdd.RDD

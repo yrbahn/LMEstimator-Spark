@@ -1,4 +1,4 @@
-package com.kakao.sparklm
+package sparklm
 
 trait SparkLMCommand
 case object PreProcessing extends SparkLMCommand

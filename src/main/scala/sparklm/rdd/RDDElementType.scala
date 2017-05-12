@@ -1,4 +1,4 @@
-package com.kakao.sparklm.rdd
+package sparklm.rdd
 
 object RDDElementType {
   type NGramType = Vector[Int]

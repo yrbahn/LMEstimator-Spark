@@ -1,4 +1,4 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
 import java.io.{File, PrintWriter}
 import java.net.URI

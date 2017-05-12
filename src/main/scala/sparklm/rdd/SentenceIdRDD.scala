@@ -1,8 +1,8 @@
-package com.kakao.sparklm.rdd
+package sparklm.rdd
 
-import com.kakao.sparklm.SparkLM
-import com.kakao.sparklm.rdd.RDDElementType.NGramCountType
-import com.kakao.sparklm.util.SparkLMConfig
+import sparklm.SparkLM
+import sparklm.rdd.RDDElementType.NGramCountType
+import sparklm.util.SparkLMConfig
 import org.apache.spark.rdd.RDD
 import org.apache.spark.storage.StorageLevel
 

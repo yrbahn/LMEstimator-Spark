@@ -1,4 +1,4 @@
-package com.kakao.sparklm.util
+package sparklm.util
 
 import org.apache.spark.Partitioner
 import scala.util.control.Breaks._
