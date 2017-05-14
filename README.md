@@ -3,10 +3,10 @@
 ## 설정하기
 	sparklm{
 		// 입력
-		inputs = ["hdfs://hadoop1.dialoid.com//home/lm/data/local/yearly/*.txt","hdfs://hadoop1.dialoid.com//home/lm/data/local/monthly/*.txt"]
+		inputs = ["hdfs://xxxx.com//home/lm/data/local/yearly/*.txt"]
 		
 		// 결과 
-		output_dir  = "hdfs://hadoop1.dialoid.com/home/lm/out/arpa"
+		output_dir  = "hdfs://xxx.com/home/lm/out/arpa"
 		output_foramt = "arpa" // ex) text, apra
 
 		//사전 설정
