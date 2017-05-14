@@ -3,10 +3,8 @@ lazy val root = (project in file(".")).
     name := "sparklm",
     version := "0.1",
     scalaVersion := "2.11.8",
-    mainClass in Compile := Some("com.kakao.sparklm.SparkLM") //com.daumkakao.lm.LMSpark
+    mainClass in Compile := Some("sparklm.SparkLM") 
   )
-
-//resolvers += "kako-nlp" at "http://repo.daumkakao.io/content/groups/kakao-nlp-group"
 
 val sparkVersion = "2.0.1"
 
