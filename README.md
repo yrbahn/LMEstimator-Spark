@@ -3,10 +3,10 @@
 ## 설정하기
 	sparklm{
 		// 입력
-		inputs = ["hdfs://xxxx.com//home/lm/data/local/yearly/*.txt"]
+		inputs = ["hdfs://.../*.txt"]
 		
 		// 결과 
-		output_dir  = "hdfs://xxx.com/home/lm/out/arpa"
+		output_dir  = "hdfs://...."
 		output_foramt = "arpa" // ex) text, apra
 
 		//사전 설정
@@ -26,7 +26,7 @@
 			discount = 0.5
 		}
 	
-		//토근자 설정 (ex) twitter, DHA, kg2p
+		//토근자 설정 (ex) twitter
 		tokenizer = "twitter"
 	}
 
